@@ -173,7 +173,7 @@ private Button goLeftBt;
             runOnUiThread(new Runnable() {
                 @Override
                 public void run() {
-                    debuTx.setText(String.valueOf(bytes));
+                    debuTx.setText(String.valueOf(new String(bytes)));
                 }
             });
             return null;
